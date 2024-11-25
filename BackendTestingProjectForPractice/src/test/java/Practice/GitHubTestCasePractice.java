@@ -3,10 +3,13 @@ package Practice;
 import org.hamcrest.Matchers;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import com.backendTesting.Excelutility.Excelutility;
+
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import pojoclass.utility.GitHubProjectPojo;
-import techpy.gym.generic.fileUtility.ExcelUtility;
+//import techpy.gym.generic.fileUtility.ExcelUtility;
 
 import static io.restassured.RestAssured.*;
 
@@ -14,7 +17,7 @@ import java.util.Random;
 
 public class GitHubTestCasePractice {
 
-	ExcelUtility elib = new ExcelUtility();
+	Excelutility elib = new Excelutility();
 
 	@Test(dataProvider = "getData")
 	public void createRepo(String repoName ,String description ) throws Throwable

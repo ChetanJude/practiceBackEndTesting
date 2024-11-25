@@ -67,8 +67,8 @@
     <version>1.1.1</version>
 </dependency>
   	<dependency>
-  		<groupId>GymMamagement</groupId>
-  		<artifactId>GymMamagement</artifactId>
+  		<groupId>BackEndTestingProject</groupId>
+  		<artifactId>BackEndTestingProject</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   </dependencies>
